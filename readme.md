@@ -1,7 +1,7 @@
 # SolMusic Landing Page
 
 Here's the actual website that I am trying to clone using Tailwind CSS
-![Alt text](/imges/screen.jpeg?raw=true)
+![Alt text](/images/screen.jpeg?raw=true)
 
 ## Demo
 
