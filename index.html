@@ -19,15 +19,15 @@
     <!-- Header Section -->
     <section class="bg-gray-900">
       <!-- Header Container -->
-      <div class="max-w-6xl min-h-screen mx-auto conatainer">
+      <div class="max-w-6xl px-4 mx-auto conatainer">
         <!-- Navbar -->
-        <div class="flex items-center justify-between py-8 text-white">
+        <div class="flex items-center justify-between py-8 text-white md:px-0">
           <!-- Logo -->
           <h3 class="text-3xl font-semibold">
             <span class="text-rose-600">SOL</span>MUSIC
           </h3>
           <!-- Menu Items -->
-          <div class="flex space-x-10">
+          <div class="hidden space-x-10 md:flex">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Pages</a>
@@ -35,7 +35,7 @@
             <a href="#">Contact</a>
           </div>
           <!-- CTA -->
-          <div class="flex space-x-8">
+          <div class="hidden space-x-8 lg:flex">
             <div class="flex space-x-3">
               <h5 class="text-gray-600">Help</h5>
               <h5>Login</h5>
@@ -46,10 +46,10 @@
         <!-- Hero Container-->
         <div class="py-10">
           <!-- Flex Container -->
-          <div class="flex items-center justify-between space-x-10">
+          <div class="flex flex-col justify-between md:space-x-10 md:flex-row">
             <!-- Text Content -->
             <div class="flex flex-col max-w-md space-y-10 text-white">
-              <h2 class="font-medium tracking-wide text-7xl">
+              <h2 class="text-6xl font-medium tracking-wide md:text-7xl">
                 <span class="text-rose-600">Listen</span> to new music.
               </h2>
               <p class="leading-7">
@@ -57,12 +57,16 @@
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                 ipsum suspendisse ultrices gravida.
               </p>
-              <div class="flex space-x-6">
-                <button class="px-8 py-4 uppercase rounded-full bg-rose-600">
+              <div
+                class="flex flex-col space-y-3 lg:flex-row lg:space-y-0 lg:space-x-6"
+              >
+                <button
+                  class="px-6 py-4 text-sm uppercase rounded-full bg-rose-600 lg:text-base"
+                >
                   Download Now
                 </button>
                 <button
-                  class="px-8 py-4 uppercase bg-gray-200 rounded-full bg-opacity-40"
+                  class="px-8 py-4 text-sm uppercase bg-gray-200 rounded-full bg-opacity-40 lg:text-base"
                 >
                   Start Free Trial
                 </button>
@@ -70,14 +74,20 @@
             </div>
 
             <!-- SVG -->
-            <img src="./images/hero.svg" alt="hero-image" class="w-1/2" />
+            <img
+              src="./images/hero.svg"
+              alt="hero-image"
+              class="hidden w-1/2 md:block"
+            />
           </div>
         </div>
       </div>
     </section>
     <!-- Unlimited access -->
-    <section class="py-20 bg-white">
-      <div class="flex justify-between max-w-6xl mx-auto">
+    <section class="px-4 py-20 bg-white md:py-20">
+      <div
+        class="flex flex-col max-w-6xl mx-auto space-y-10 lg:space-y-0 md:justify-between md:px-0 lg:flex-row"
+      >
         <!-- Left Side -->
         <div class="max-w-xl">
           <h1 class="text-6xl font-medium tracking-wide">
@@ -85,7 +95,7 @@
           </h1>
         </div>
         <!-- Right Side -->
-        <div class="flex flex-col max-w-xl space-y-8">
+        <div class="flex flex-col max-w-lg space-y-8">
           <p class="leading-7 text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
@@ -103,5 +113,6 @@
         </div>
       </div>
     </section>
+    <!-- How it works section -->
   </body>
 </html>
