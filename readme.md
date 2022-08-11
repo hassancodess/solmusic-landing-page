@@ -1,6 +1,7 @@
 # SolMusic Landing Page
 
-This is a Colorib Template Clone
+Here's the actual website that I am trying to clone using Tailwind CSS
+![Alt text](/imges/screen.jpeg?raw=true)
 
 ## Demo
 
