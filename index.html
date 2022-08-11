@@ -117,10 +117,12 @@
     <section class="py-20 bg-gray-900">
       <!-- Main Container -->
       <div
-        class="container flex flex-col items-center max-w-6xl px-4 mx-auto space-y-10 text-white"
+        class="container flex flex-col items-center max-w-6xl px-4 mx-auto space-y-10 text-white md:items-start"
       >
         <!-- Heading -->
-        <h1 class="text-6xl font-medium">How it works</h1>
+        <h1 class="text-6xl font-medium md:text-7xl md:text-left">
+          How it works
+        </h1>
         <!-- Items Container -->
         <div
           class="flex flex-col space-y-6 md:flex-row md:space-x-6 md:space-y-0"
@@ -188,7 +190,173 @@
     <!-- Our Concepts & Artists -->
     <section class="py-20 bg-white">
       <!-- Main Container -->
-      <div class="max-w-6xl px-4 md:px-0"></div>
+      <div
+        class="container flex flex-col items-center max-w-6xl px-4 mx-auto space-y-20"
+      >
+        <!-- Top Container -->
+        <div
+          class="flex flex-col items-center w-full space-y-10 lg:space-y-0 lg:items-start lg:flex-row lg:justify-between lg:space-x-6"
+        >
+          <h1
+            class="max-w-xl text-4xl font-medium text-center lg:text-left lg:max-w-lg md:text-6xl"
+          >
+            Our Concept & artists
+          </h1>
+          <p class="max-w-md text-gray-600 lg:max-w-lg">
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+            gravida. Risus commodo viverra maecenas accumsan lacus vel
+            facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <!-- Bottom Container -->
+        <div
+          class="grid w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-y-10 xl:gap-y-0"
+        >
+          <!-- Item 1-->
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <img
+              src="./images/music.jpg"
+              alt=""
+              class="object-cover h-60 w-60 rounded-3xl"
+            />
+            <h3 class="text-xl font-medium">Soul Music</h3>
+          </div>
+          <!-- Item 2-->
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <img
+              src="./images/concert.jpg"
+              alt=""
+              class="object-cover h-60 w-60 rounded-3xl"
+            />
+            <h3 class="text-xl font-medium">Live Concerts</h3>
+          </div>
+          <!-- Item 3-->
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <img
+              src="./images/dj.jpg"
+              alt=""
+              class="object-cover h-60 w-60 rounded-3xl"
+            />
+            <h3 class="text-xl font-medium">DJ Sets</h3>
+          </div>
+          <!-- Item 4-->
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <img
+              src="./images/guitar.jpg"
+              alt=""
+              class="object-cover h-60 w-60 rounded-3xl"
+            />
+            <h3 class="text-xl font-medium">Live Streams</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribtion -->
+    <section class="py-20 bg-gray-900">
+      <!-- Main Container -->
+      <div
+        class="container flex flex-col max-w-6xl px-4 mx-auto space-y-10 text-white lg:flex-row lg:justify-between lg:space-y-0"
+      >
+        <!-- Left Side -->
+        <div class="flex flex-col space-y-10">
+          <div class="flex flex-col space-y-6">
+            <h1 class="max-w-md text-4xl md:max-w-xl md:text-6xl">
+              Subscription from $15/month
+            </h1>
+            <h4 class="text-2xl text-rose-600 md:text-3xl">
+              Start a free trial now
+            </h4>
+          </div>
+          <p class="max-w-md text-gray-400 md:max-w-2xl lg:max-w-xl">
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+            gravida. Risus commodo viverra maecenas accumsan lacus vel
+            facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button
+            class="self-start px-8 py-3 uppercase rounded-full md:py-4 bg-rose-600"
+          >
+            try it now
+          </button>
+        </div>
+        <!-- Right Side -->
+        <div
+          class="w-full px-20 py-20 bg-gray-800 md:w-auto md:self-start md:px-32 rounded-3xl"
+        >
+          <!-- Items Container -->
+          <div class="flex flex-col space-y-8 md:justify-center">
+            <!-- Item 1 -->
+            <div class="flex items-center space-x-6">
+              <div class="relative w-5 h-5 rounded-full bg-rose-600">
+                <img
+                  src="./images/tick.png"
+                  alt="Tick"
+                  class="absolute h-6 bottom-px left-1"
+                />
+              </div>
+              <p class="text-xl font-light">Play any track</p>
+            </div>
+            <!-- Item 2 -->
+            <div class="flex items-center space-x-6">
+              <div class="relative w-5 h-5 rounded-full bg-rose-600">
+                <img
+                  src="./images/tick.png"
+                  alt="Tick"
+                  class="absolute h-6 bottom-px left-1"
+                />
+              </div>
+              <p class="text-xl font-light">Play offline</p>
+            </div>
+            <!-- Item 3 -->
+            <div class="flex items-center space-x-6">
+              <div class="relative w-5 h-5 rounded-full bg-rose-600">
+                <img
+                  src="./images/tick.png"
+                  alt="Tick"
+                  class="absolute h-6 bottom-px left-1"
+                />
+              </div>
+              <p class="text-xl font-light">No ad interuptions</p>
+            </div>
+            <!-- Item 4 -->
+            <div class="flex items-center space-x-6">
+              <div class="relative w-5 h-5 rounded-full bg-rose-600">
+                <img
+                  src="./images/tick.png"
+                  alt="Tick"
+                  class="absolute h-6 bottom-px left-1"
+                />
+              </div>
+              <p class="text-xl font-light">Unlimited skips</p>
+            </div>
+            <!-- Item 5 -->
+            <div class="flex items-center space-x-6">
+              <div class="relative w-5 h-5 rounded-full bg-rose-600">
+                <img
+                  src="./images/tick.png"
+                  alt="Tick"
+                  class="absolute h-6 bottom-px left-1"
+                />
+              </div>
+              <p class="text-xl font-light">High quality audio</p>
+            </div>
+            <!-- Item 6 -->
+            <div class="flex items-center space-x-6">
+              <div class="relative w-5 h-5 rounded-full bg-rose-600">
+                <img
+                  src="./images/tick.png"
+                  alt="Tick"
+                  class="absolute h-6 bottom-px left-1"
+                />
+              </div>
+              <p class="text-xl font-light">Shuffle play</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
